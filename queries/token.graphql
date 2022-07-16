@@ -1,0 +1,9 @@
+query getFirstFiveTokens {
+    tokens (first: 5, orderBy: id) {
+        id
+        symbol
+        name
+        decimals
+        totalSupply
+      }
+  }
